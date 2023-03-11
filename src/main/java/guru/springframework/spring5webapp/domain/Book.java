@@ -44,12 +44,10 @@ public class Book {
     }
 
     @Override
-    public String toString() {
-        return "Book{" +
+    public String toString() {        return "Book{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", isbn='" + isbn + '\'' +
-                ", authors=" + authors +
                 '}';
     }
 

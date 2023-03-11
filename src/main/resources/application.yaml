@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:mydb
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+  h2:
+    console.enabled: true
+  thymeleaf:
+    check-template: true
+    check-template-location: true
+    enabled: true
+    prefix: classpath:/templates/
+    suffix: .html
